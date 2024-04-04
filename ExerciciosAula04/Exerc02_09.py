@@ -1,0 +1,6 @@
+frase = input("Escreva uma Frase: ")
+caracter = input("Escreva um Caracter: ")
+nova_frase = frase.find(caracter)
+print(f"Sua frase >> {frase}")
+print(f"Seu caracter: {caracter}")
+print(nova_frase, f"Esta foi o numero de ocorrencia deste caracter {caracter}  na sua frase.")
