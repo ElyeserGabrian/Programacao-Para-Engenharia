@@ -7,6 +7,6 @@ for i in range(3):
     nome = input(f"Digite o nome do {i}º produto: ")
     preco = float(input(f"Digite o preço do {i}º produto "))
     produtos.update({nome: preco})
-for name, sale in produtos.items():
+for name, price in produtos.items():
     print(" ")
-    print(f"Nome do Produto: {name}\nPreço do Produto: {sale}")
+    print(f"Nome do Produto: {name}\nPreço do Produto: R${price}")
