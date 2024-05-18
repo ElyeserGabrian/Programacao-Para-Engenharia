@@ -1,7 +1,6 @@
 # 1 – Desenvolva um código em Python que adicione em um dicionário “d” os
 # seguintes campos: nome, idade, endereço e telefone e mostre os dados no
 # final.
-
 d = {}
 i = 0 
 tent = 9999999999
