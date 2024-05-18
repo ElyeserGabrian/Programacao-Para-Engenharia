@@ -9,5 +9,3 @@ for i, j in zip(a, b):
     c.append(i)
     c.append(j)
 print(c)
-
-  
