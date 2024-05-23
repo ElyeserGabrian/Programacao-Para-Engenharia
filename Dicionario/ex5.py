@@ -10,3 +10,4 @@ for i in range(3):
 for name, price in produtos.items():
     print(" ")
     print(f"Nome do Produto: {name}\nPreço do Produto: R${price}")
+print(produtos)
