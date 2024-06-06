@@ -25,5 +25,6 @@ print(f"\nMédia anual das temperaturas: {media_anual:.2f}°C")
 print("\nMeses com temperaturas acima da média anual:")
 for month, temp in acima.items():
     print(f"{month}: {temp}°C")
+print(acima)
 
         
